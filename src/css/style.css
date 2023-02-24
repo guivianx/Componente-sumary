@@ -140,7 +140,7 @@ aside > div {
 }
 
 
-section#section2 > div {
+section#section2 > button {
     margin: auto;
     width: 100%;
     padding: 20px;
@@ -155,6 +155,6 @@ section#section2 > div {
     top: 10px;
     position: relative;
 }
-section#section2 > div:active {
+section#section2 > button:active {
     background-color: var(--Azul-royal-claro);
 }
