@@ -41,10 +41,10 @@
     }
     
 
-    section#section2 > div {
+    section#section2 > button {
         padding: 15px;
     }
-    section#section2 > div:hover {
+    section#section2 > button:hover {
         background-image: linear-gradient(to top, #2e2be9, #7857ff);
     }
     
