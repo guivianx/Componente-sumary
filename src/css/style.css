@@ -148,7 +148,6 @@ section#section2 > div {
     border-radius: 35px;
     background-color: var(--Azul-cinza-escuro);
     color: #fff;
-    cursor: pointer;
     transition: .2s;
     font-weight: 500;
     font-size: 18px;
