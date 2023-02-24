@@ -1,0 +1,52 @@
+@media (min-width:765px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        display: flex;
+    }
+   
+    main {
+        display: flex;
+        width: 687px;
+        margin: auto;
+        height: auto;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.079);
+        border-radius:30px 30px;
+    }
+
+    #section2,#section1 {
+        width: 50vw;
+    }
+
+    #section1 {
+        border-radius:30px 30px;
+    }
+
+    section #leg {
+        font-size: 14px;
+        padding: 5px 50px 50px 50px;
+    }
+
+    section#section2 {
+        gap: 10px;
+    }
+
+
+    section#section2 h2 {
+        font-size: 24px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+
+    section#section2 > div {
+        padding: 15px;
+    }
+    section#section2 > div:hover {
+        background-image: linear-gradient(to top, #2e2be9, #7857ff);
+    }
+    
+}
+

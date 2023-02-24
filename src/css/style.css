@@ -1,0 +1,161 @@
+:root {
+
+    /*Principal*/
+    --Vermelho-claro: #ff5757;
+    --Amarelo-alaranjado: #ffb01f;
+    --Verde-azulado: #00bd91;
+    --Azul-cobalto: #1125d4;
+
+    /*Degradês*/
+
+    /*Fundo*/
+    --Azul-ardósia-claro: #7857ff;
+    --Azul-royal-claro: #2e2be9;
+    
+    /*(círculo)*/
+
+    --Azul-violeta: #4e21ca;
+    --Azul-persa: #2421ca00;
+
+    /*Neutro*/
+    --Branco: #ffffff;
+    --Azul-claro: #ebf1ff;
+    --Lavanda-clara: #c8c7ff;
+    --Azul-cinza-escuro: #303b5a;
+
+    /*Fonte*/
+    --fontpadrao: 'Hanken Grotesk', sans-serif;
+}
+
+body, main {
+    font-family: var(--fontpadrao);
+    height: 100vh;
+    width: 100vw;
+}
+
+#section1 {
+    width: 100vw;
+    text-align: center;
+    background-color: var(--Azul-royal-claro);
+    color: var(--Branco);
+    border-radius: 0px 0px 30px 30px;
+}
+
+#section1 > div {
+    background-image: linear-gradient(to top, #2421ca00, #4e21ca);
+    border-radius: 50%;
+    margin: auto;
+    width: 190px;
+
+}
+
+div h1 {
+    font-size: 4em;
+}
+
+div > h1 {
+    padding: 40px 0px 0px 0px;
+}
+div >p  {
+    padding: 0px 0px 40px 0px;
+    color: var(--Lavanda-clara);
+}
+
+#section1 > h2 {
+    padding: 25px 15px 5px 15px;
+}
+
+#section1 > p {
+    font-size: 18px;
+    color: var(--Lavanda-clara);
+    padding: 35px;
+}
+
+section #leg {
+    font-size: 16px;
+    padding: 5px 75px 50px 75px;
+}
+
+/*parte d baixo*/
+
+section#section2 {
+    padding: 25px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+section#section2 h2 {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+section#section2 article {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section#section2 article#reaction {
+    background-color: #ff57570b;
+}
+article aside > #tt {
+    color: var(--Vermelho-claro);
+}
+
+
+section#section2 article#memory {
+    background-color: #ffb11f17;
+}
+article aside > #mm {
+    color: var(--Amarelo-alaranjado);
+}
+
+section#section2 article#verbal {
+    background-color: #00bd9116;
+}
+article aside > #vb {
+    color: var(--Verde-azulado);
+}
+
+section#section2 article#visual {
+    background-color: #1124d411;
+}
+article aside > #vs {
+    color: #1125d4;
+}
+
+
+aside {
+    display: flex;
+    gap: 5px;
+    font-weight: 700;
+}
+
+aside > div {
+    color: #919199;
+    font-weight: normal;
+}
+
+
+section#section2 > div {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    border: 0px;
+    border-radius: 35px;
+    background-color: var(--Azul-cinza-escuro);
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
+section#section2 > div:active {
+    background-color: var(--Azul-royal-claro);
+}
