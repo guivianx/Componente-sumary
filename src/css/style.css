@@ -148,7 +148,6 @@ section#section2 > button {
     border-radius: 35px;
     background-color: var(--Azul-cinza-escuro);
     color: #fff;
-    transition: .2s;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
@@ -156,5 +155,5 @@ section#section2 > button {
     position: relative;
 }
 section#section2 > button:active {
-    background-color: var(--Azul-royal-claro);
+    background-image: linear-gradient(to top, #2e2be9, #7857ff);
 }
