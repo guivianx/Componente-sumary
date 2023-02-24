@@ -43,6 +43,7 @@
 
     section#section2 > button {
         padding: 15px;
+        cursor: pointer;
     }
     section#section2 > button:hover {
         background-image: linear-gradient(to top, #2e2be9, #7857ff);
