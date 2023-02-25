@@ -36,7 +36,7 @@ body, main {
 #section1 {
     width: 100vw;
     text-align: center;
-    background-color: var(--Azul-royal-claro);
+    background-image: linear-gradient(to top, #2e2be9, #7857ff);
     color: var(--Branco);
     border-radius: 0px 0px 30px 30px;
 }
@@ -72,8 +72,8 @@ div >p  {
 }
 
 section #leg {
-    font-size: 16px;
-    padding: 5px 75px 50px 75px;
+    font-size: 18px;
+    padding: 5px 50px 50px 50px;
 }
 
 /*parte d baixo*/
@@ -99,7 +99,7 @@ section#section2 article {
 }
 
 section#section2 article#reaction {
-    background-color: #ff57570b;
+    background-color: #ff575714;
 }
 article aside > #tt {
     color: var(--Vermelho-claro);
